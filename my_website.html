@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+<body>
+<nav class="w3-bar w3-black">
+    <a href="#home" class="w3-button w3-bar-item"></a>
+    <a href="my_website.html" class="w3-button w3-bar-item">Home</a>
+    <a href="laptops.html" class="w3-button w3-bar-item">Laptop</a>
+    
+
+<section>
+    <img class="mySlides" src="http://philippines.liketimes.me/file/parts/I8079cf1/473573791d2c0db79e9961f51195110c.jpg" style="width:100%">
+    <img class="mySlides" src="http://www.top10bestselling.net/wp-content/uploads/2016/06/Top-10-Best-Selling-Dell-Laptops-in-India-2016-1024x685.jpg" style="width:100%">
+    <img class="mySlides" src="http://www.top10bestselling.net/wp-content/uploads/2016/06/Top-10-Best-Selling-HP-Laptops-in-India-1024x577.jpg" style="width:100%">
+    <img class="mySlides" src="https://www.techosaurusrex.com/wp-content/uploads/2016/05/lenovo-best-selling-laptop-brand.jpg" style="width:100%">
+    <img class="mySlides" src="http://i7laptopreviews.com/wp-content/uploads/2015/10/81gfe5mN30L._SL1500_.jpg" style="width:100%">
+</section>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel(){
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 3000);
+}
+     </script>
+<center><section class="w3-container w3-center" style="max-width:600px">
+    <h2 class="w3-wide">About me</h2>
+    <p class="w3-opacity"><i>I am a computer enthusiast. I am also a self taught programmer and can code in HTML, Python, CSS and Javascript. This website is a sample of my skills in three of the languages mentioned above. </i></p></center>
+<center><section class="w3-container w3-center" style="max-width:600px">
+    <h2 class="w3-wide">Contact Information</h2>
+    <p class="w3-opacity"><i><ol>Mobile Number: 07404235822</ol><ol>Email: mateenparkar21@gmail.com</ol><ol>Phone Number: 01216054066</ol></i></p></center>
+    
+    
+    
+    
